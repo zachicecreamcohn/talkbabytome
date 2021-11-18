@@ -38,6 +38,12 @@ def newtranslation():
     # redirect to home page
     return redirect(url_for('home'))
 
+# route for about page
+@app.route('/about')
+def about():
+    return render_template('about.html', title = ' - ABOUT US')
+
+
 # route for api
 @app.route('/api/quotes', methods=['POST'])
 def api_quotes():
@@ -56,7 +62,17 @@ def api_quotes():
     return jsonify(quotes)
     
 
+# handle error 404
+@app.errorhandler(404)
+def page_not_found(e):
+    errortitle = '404 Error'
+    errormessage = 'Page not found'
+    return render_template('error.html', errortitle=errortitle, errormessage=errormessage), 404
+
+
 
 # run the app
 if __name__ == '__main__':
     app.run(debug=True)
+
+

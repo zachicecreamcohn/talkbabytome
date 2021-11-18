@@ -118,3 +118,24 @@ td {
     height: fit-content;
 }
 
+
+
+
+.bigtitle {
+    font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.smalltitle {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+#errorcontent {
+    padding-left: 8vw;
+    padding-top: 2vw;
+    text-align: left;
+}
+
