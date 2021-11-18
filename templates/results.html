@@ -1,0 +1,59 @@
+{% extends "index.html" %}
+
+    
+    {% block content %}
+ 
+
+
+    <!-- three column table -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>{{ title }}</h1>
+            </div>
+        </div>
+   
+        <!-- <td> -->
+            <div id="result_box">
+            <p>{{result}}</p>
+            </div>
+            <br>
+            
+
+        <form action="{{ url_for('newtranslation') }}" method="post">
+            <!-- <td> -->
+        
+        <div class="row">
+            <div class="col center"><input class="btn btn-primary mb-2 translate_btn" type="submit" value="New Translation" id="translate_btn" name="newtranslation"></div>
+
+        </div>
+        
+   
+   
+        <!-- <div class="row">
+            <div class="col-md">
+                <table class="table table-striped">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div id="result_box">
+                                <p>{{result}}</p>
+                                </div>
+                                <br>
+                                
+                            </td>
+                            <form action="{{ url_for('newtranslation') }}" method="post">
+                                <td> -->
+                                    <!-- <div class="form-group">
+                            <td><input class="btn btn-primary mb-2 translate_btn" type="submit" value="New Translation" id="new_translation_btn" name="newtranslation"></td>
+                             <td><p>{{result}}</p></td> -->
+                        <!-- </tr>
+
+                    </tbody>
+                </table>  -->
+            </div>
+        </div>
+
+
+
+    {% endblock %}
