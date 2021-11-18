@@ -27,7 +27,7 @@ td {
 
 .translate_btn {
     /* font-size: medium; */
-    margin: 3vw;
+    margin: 2vw;
     text-align: center;
     font-size: 1.8rem !important;
     background-color: rgba(202, 247, 255, 0.575) !important;
@@ -48,7 +48,7 @@ td {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10vh;
+    margin-top: 6vh;
 }
 
 
@@ -73,3 +73,48 @@ td {
     justify-content: center;
     align-items: center;
 }
+
+
+
+@font-face {
+    font-family: 'child';
+    src: "{{ url_for('static', filename='RoccoRegular-pmVR.otf') }}";
+    font-weight: bold;
+}
+
+.title {
+    padding-top: 7vh;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 3.5rem;
+}
+
+
+.center {
+    text-align: center;
+}
+
+.info_icon {
+    opacity: 50%;
+    aspect-ratio: 1;
+    width: 2.8rem;
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+}
+
+#info_icon {
+    left: 0;;
+}
+
+
+
+/* Animated button */
+
+#footer {
+    position: fixed;
+    bottom: 0;
+
+    width: fit-content;
+    padding-left: 90hw;
+    height: fit-content;
+}
+

@@ -6,12 +6,27 @@
     <link rel="stylesheet" href="static/style.css">
     <!-- link bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
 </head>
 
 
 <body>
 
+    <h1 class="title center">Talk Baby to Me</h1>
+    
+
     {% block content %}
     {% endblock %}
+
+    <div id="footer">
+    <a id="info_icon" href="about"><img src="static/info_outline.svg" alt="more info" class="info_icon"></a>
+    </div>
+
+
+    
 </body>
 </html>
