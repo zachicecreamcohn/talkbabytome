@@ -248,7 +248,7 @@ def english_to_babytalk(english_string):
                         word_as_list.pop(i)
                         new_word = "".join(word_as_list)
                         english_string_list[english_string_list.index(word)] = new_word
-                except IndexError:
+                except Exception as e:
                     pass
     english_string = " ".join(english_string_list)
 
