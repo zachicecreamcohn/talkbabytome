@@ -56,7 +56,6 @@ baby_dict = {
     "father": "dada",
     "dad": "dada",
     "mom": "mama",	
-    "I": "me",
     "cat" : "kitty",
     "dog" : "doggy",
     "puppy" : "doggy",
