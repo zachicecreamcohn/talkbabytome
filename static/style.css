@@ -1,8 +1,8 @@
 #english_input {
-    width: 55vw;
+    width: 80vw;
     height: 25vw;
-    max-width: 700px;
-    max-height: 300px;
+    max-width: 675px;
+    max-height: 250px;
     border: 0;
     border-color: transparent !important;
     /* background: rgba(202, 247, 255, 0.575); */
@@ -53,9 +53,9 @@ td {
 
 
 #result_box {
-    width: 55vw;
+    width: 80vw;
     height: auto;
-    max-width: 700px;
+    max-width: 675px;
     /* max-height: 300px; */
     background: rgb(255, 237, 240);
     color: rgb(0, 0, 0);
