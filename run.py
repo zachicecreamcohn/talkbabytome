@@ -22,10 +22,13 @@ def home():
 @app.route('/quotes', methods=['POST'])
 def quotes():
     # get the form data
+    
     english_string = request.form['english_string']
-
-    # return the quotes
-    return render_template('results.html', result=english_to_babytalk(english_string))
+    if english_string == '':
+        return redirect(url_for('home'))
+    else:
+        # return the quotes
+        return render_template('results.html', result=english_to_babytalk(english_string))
 
 
 
