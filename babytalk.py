@@ -131,6 +131,10 @@ baby_dict = {
     "Don't": "Nuh-nuh",
     "dinner": "din-din",
     "Dinner": "Din-din",
+    "speak": "tawk",
+    "Speak": "Tawk",
+    "spoke" : "tawked",
+    "Spoke" : "Tawked",
     
 
 
