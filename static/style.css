@@ -96,22 +96,25 @@ td {
 .info_icon {
     opacity: 50%;
     aspect-ratio: 1;
-    width: 2.8rem;
-    margin-bottom: 1vh;
+    width: 3rem;
+    margin-top: 2vh;
     margin-left: 1vw;
 }
 
 #info_icon {
-    left: 0;;
+    left: 0;
+}
+
+#back_icon {
+    left: 0;
 }
 
 
+/*  button */
 
-/* Animated button */
-
-#footer {
+#header {
     position: fixed;
-    bottom: 0;
+    top: 0;
 
     width: fit-content;
     padding-left: 90hw;

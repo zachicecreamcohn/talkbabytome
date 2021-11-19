@@ -24,8 +24,12 @@
     {% block content %}
     {% endblock %}
 
-    <div id="footer">
-    <a id="info_icon" href="about"><img src="static/info_outline.svg" alt="more info" class="info_icon"></a>
+    <div id="header">
+        {% if about %}
+            <a id="info_icon" href="home"><img src="static/backarrow.svg" alt="more info" class="info_icon"></a>
+        {% else %}
+            <a id="back_icon" href="about"><img src="static/info_outline.svg" alt="back home" class="info_icon"></a>
+        {% endif %}
     </div>
 
 

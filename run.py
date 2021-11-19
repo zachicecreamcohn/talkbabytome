@@ -41,7 +41,7 @@ def newtranslation():
 # route for about page
 @app.route('/about')
 def about():
-    return render_template('about.html', title = ' - ABOUT US')
+    return render_template('about.html', title = ' - ABOUT US', about=True)
 
 
 # route for api
