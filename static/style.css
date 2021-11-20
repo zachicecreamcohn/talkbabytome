@@ -40,7 +40,6 @@ td {
     padding-left: 1.5rem !important;
     padding-right: 1.5rem !important;
 }
-
 .container
 {
     width: 100%;
@@ -68,6 +67,8 @@ td {
     margin: 1vh;
     border-radius: 8px;
 }
+
+
 
 .center {
     display: flex;
@@ -163,4 +164,11 @@ td {
     margin: 1vh;
     margin-top: 3vh;
     border-radius: 8px;
+}
+
+#babyipsum_btn {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1.8rem;
+    color: rgb(0, 0, 0) !important;
+    margin-left: 92%
 }

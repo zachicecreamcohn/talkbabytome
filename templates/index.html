@@ -17,21 +17,30 @@
 
 
 <body>
+    <table>
+        <tr>
+            <div id="header">
+                {% if about %}
+                    <a id="info_icon" href="home"><img src="static/backarrow.svg" alt="more info" class="info_icon"></a>
+                {% else %}
+                    <a id="back_icon" href="about"><img src="static/info_outline.svg" alt="back home" class="info_icon"></a>
+                {% endif %}
+        
 
+            </div>
+        </tr>
+        <tr>
+            <a href="babyipsum"><h3 id="babyipsum_btn">Baby Ipsum</h3></a>
+        </tr>
+    </table>
     <h1 class="title center">Talk Baby to Me {{ title }}</h1>
-    
+
+ 
 
     {% block content %}
     {% endblock %}
 
-    <div id="header">
-        {% if about %}
-            <a id="info_icon" href="home"><img src="static/backarrow.svg" alt="more info" class="info_icon"></a>
-        {% else %}
-            <a id="back_icon" href="about"><img src="static/info_outline.svg" alt="back home" class="info_icon"></a>
-        {% endif %}
-    </div>
-
+ 
 
     
 </body>
