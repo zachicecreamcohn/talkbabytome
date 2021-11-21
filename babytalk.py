@@ -136,6 +136,8 @@ baby_dict = {
     "Spoke" : "Tawked",
     "didn't": "nuh-nuh",
     "Didn't": "Nuh-nuh",
+    "it's": "iz",
+    "It's": "Iz",
     
 
 
