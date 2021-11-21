@@ -85,7 +85,7 @@ td {
 }
 
 .title {
-    padding-top: 7vh;
+    margin-top: 6vh;
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 3.5rem;
 }
@@ -99,8 +99,8 @@ td {
     opacity: 50%;
     aspect-ratio: 1;
     width: 3rem;
-    margin-top: 2vh;
-    margin-left: 1vw;
+    margin-top: 3vh;
+    margin-left: 2vw;
 }
 
 #info_icon {
@@ -166,9 +166,14 @@ td {
     border-radius: 8px;
 }
 
-#babyipsum_btn {
+.babyipsum_btn {
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 1.8rem;
     color: rgb(0, 0, 0) !important;
-    margin-left: 92%
+    padding-top: 1vh;
+
+}
+
+#middle_header {
+    width: 90vw;
 }

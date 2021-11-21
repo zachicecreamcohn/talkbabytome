@@ -21,14 +21,18 @@
             </div>
             <br>
             
-
-        <form action="{{ url_for('newtranslation') }}" method="post">
+        {% if babypage %}
+            
+        {% else %}
+            <form action="{{ url_for('newtranslation') }}" method="post">
             <!-- <td> -->
         
         <div class="row">
             <div class="col center"><input class="btn btn-primary mb-2 translate_btn" type="submit" value="New Translation" id="translate_btn" name="newtranslation"></div>
 
         </div>
+        {% endif %}
+        
         
    
    

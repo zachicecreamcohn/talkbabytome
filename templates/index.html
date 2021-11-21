@@ -19,6 +19,7 @@
 <body>
     <table>
         <tr>
+            <td>
             <div id="header">
                 {% if about %}
                     <a id="info_icon" href="home"><img src="static/backarrow.svg" alt="more info" class="info_icon"></a>
@@ -28,10 +29,19 @@
         
 
             </div>
+            </td>
+            <td>
+                <div id="middle_header"></div></td>
+            <td>
+                {% if babypage %}
+                    <a href="home"><h3 class="babyipsum_btn">Go Back</h3></a>
+                {% else %}
+                    <a href="babyipsum"><h3 class="babyipsum_btn">Baby Ipsum</h3></a>
+                    
+                {% endif %}
+                </td>
         </tr>
-        <tr>
-            <a href="babyipsum"><h3 id="babyipsum_btn">Baby Ipsum</h3></a>
-        </tr>
+
     </table>
     <h1 class="title center">Talk Baby to Me {{ title }}</h1>
 
