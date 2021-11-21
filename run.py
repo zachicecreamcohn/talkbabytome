@@ -4,7 +4,7 @@
 from babytalk import get_all_quoted_strings, english_to_babytalk
 
 # import flask
-from flask import Flask, render_template, request, redirect, url_for, flash, jsonify
+from flask import Flask, render_template, request, redirect, url_for, flash, jsonify, send_from_directory
 
 # start the flask app
 app = Flask(__name__)
@@ -79,7 +79,10 @@ def page_not_found(e):
     errormessage = 'Page not found'
     return render_template('error.html', errortitle=errortitle, errormessage=errormessage), 404
 
-
+# route for displaying image
+@app.route('/images/<path:filename>')
+def images(filename):
+    return send_from_directory('static', filename)
 
 # run the app
 if __name__ == '__main__':
