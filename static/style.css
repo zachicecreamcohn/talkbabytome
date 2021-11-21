@@ -1,4 +1,4 @@
-#english_input {
+.english_input {
     width: 80vw;
     height: 25vw;
     max-width: 675px;
@@ -6,7 +6,7 @@
     border: 0;
     border-color: transparent !important;
     /* background: rgba(202, 247, 255, 0.575); */
-    background: rgb(255, 237, 240);
+    background: rgb(255, 237, 240) !important;
     color: rgb(0, 0, 0);
     
     font-size: 20px;
@@ -15,9 +15,10 @@
     text-align: left;
     padding: 2vh;
     margin: 1vh;
-    resize: none;
+    resize: none !important;
     
 }
+
 
 
 td {
@@ -39,6 +40,15 @@ td {
     padding-bottom: 1rem !important;
     padding-left: 1.5rem !important;
     padding-right: 1.5rem !important;
+}
+
+#copy_btn {
+    margin: 2vw;
+    text-align: center;
+    font-size: 1.8rem !important;
+    background-color: rgb(236, 236, 236) !important;
+    border-radius: 3px !important;
+    outline: none !important;
 }
 .container
 {
@@ -177,3 +187,12 @@ td {
 #middle_header {
     width: 90vw;
 }
+
+
+
+
+
+  babyipsum {
+      height: 100vh !important;
+      max-height: fit-content !important;
+  }
