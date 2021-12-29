@@ -1,3 +1,5 @@
+
+
 .english_input {
     width: 80vw;
     height: 25vw;
@@ -195,4 +197,23 @@ td {
   babyipsum {
       height: 100vh !important;
       max-height: fit-content !important;
+  }
+
+
+
+
+  #footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
+    padding-left: 90hw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
   }
